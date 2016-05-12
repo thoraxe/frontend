@@ -128,7 +128,6 @@
                     </tags>
                     <ports>
                       <port>8080</port>
-                      <port>5701</port>
                     </ports>
                     <workdir>/opt</workdir>
                     <entryPoint>

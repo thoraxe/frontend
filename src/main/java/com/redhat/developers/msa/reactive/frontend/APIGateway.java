@@ -17,7 +17,7 @@ class APIGateway {
 
 
   private static final DeliveryOptions DELIVERY_OPTIONS =
-      new DeliveryOptions().setSendTimeout(1000);
+      new DeliveryOptions().setSendTimeout(2000);
 
   private final Vertx vertx;
 
