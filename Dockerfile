@@ -8,7 +8,7 @@ USER root
 WORKDIR /app/
 ADD . /contents
 RUN cd /contents && mvn clean package
-RUN mv /contents/target/frontend-0.0.1-SNAPSHOT-fat.jar /app \
+RUN mv /contents/target/$JAVA_APP_JAR /app \
     && chgrp -R 0 /app \
     && chmod -R g+rw /app
 
